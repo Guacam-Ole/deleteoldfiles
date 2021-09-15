@@ -1,0 +1,21 @@
+{
+  "Path": "C:\\Users\\Ole\\Downloads",
+  "Rules": [
+    {
+      "RunAfterDays": 7,
+      "SubDirectoryName": "_lastweek",
+      "Delete": false
+    },
+    {
+      "RunAfterDays": 30,
+      "SubDirectoryName": "_lastmonth",
+      "Delete": false
+    },
+    {
+      "RunAfterDays": 120,
+      "SubDirectoryName": "",
+      "Delete": true
+    }
+  ]
+}
+
